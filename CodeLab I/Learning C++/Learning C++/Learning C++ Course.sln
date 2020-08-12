@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Move gameplay to function C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Write order to file Challenge", "..\Write order to file\Write order to file.vcxproj", "{EB7B6AE6-E4C8-413B-A9FE-9D5F27FBC19C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Orders in a linked list Challenge", "..\Orders in a linked list Challenge\Orders in a linked list Challenge.vcxproj", "{7B601B25-7F87-4475-B959-65FB6438643C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{EB7B6AE6-E4C8-413B-A9FE-9D5F27FBC19C}.Release|x64.Build.0 = Release|x64
 		{EB7B6AE6-E4C8-413B-A9FE-9D5F27FBC19C}.Release|x86.ActiveCfg = Release|Win32
 		{EB7B6AE6-E4C8-413B-A9FE-9D5F27FBC19C}.Release|x86.Build.0 = Release|Win32
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Debug|x64.ActiveCfg = Debug|x64
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Debug|x64.Build.0 = Debug|x64
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Debug|x86.Build.0 = Debug|Win32
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Release|x64.ActiveCfg = Release|x64
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Release|x64.Build.0 = Release|x64
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Release|x86.ActiveCfg = Release|Win32
+		{7B601B25-7F87-4475-B959-65FB6438643C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
