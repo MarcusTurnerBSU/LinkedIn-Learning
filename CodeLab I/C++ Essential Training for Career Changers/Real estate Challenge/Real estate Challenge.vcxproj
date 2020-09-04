@@ -138,7 +138,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Assignment.cpp" />
+    <ClCompile Include="Conversion.cpp" />
+    <ClCompile Include="Read and Write.cpp" />
+    <ClCompile Include="SalesTax.cpp" />
+    <ClCompile Include="Real Estate Challenge.cpp" />
+    <ClCompile Include="Variable Scope.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
