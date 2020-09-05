@@ -138,7 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Goals Scored For Loop.cpp" />
+    <ClCompile Include="Goals Scored While Loop.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="Odd Numbers.cpp" />
+    <ClCompile Include="Sentinel.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="whilesyntax.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
