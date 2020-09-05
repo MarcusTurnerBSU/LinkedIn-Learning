@@ -138,7 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Banking Challenge.cpp" />
+    <ClCompile Include="Comparison.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="Bank Balance.cpp" />
+    <ClCompile Include="String Compare.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
