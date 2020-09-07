@@ -138,7 +138,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Balance.cpp" />
+    <ClCompile Include="Calculate Area in functions.cpp" />
+    <ClCompile Include="Calculate Area.cpp" />
+    <ClCompile Include="Overload Functions.cpp" />
+    <ClCompile Include="Pass Values.cpp" />
+    <ClCompile Include="Prototypes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
