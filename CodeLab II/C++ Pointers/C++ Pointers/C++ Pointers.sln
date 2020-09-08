@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer Basics", "..\Pointe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How to use Pointers", "..\How to use Pointers\How to use Pointers.vcxproj", "{9CC4683C-D56A-4C96-88F1-3513E92165BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "More on Pointers Uses", "..\More on Pointers Uses\More on Pointers Uses.vcxproj", "{F042A576-A297-4A8C-8B2F-820363F72B88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x64.Build.0 = Release|x64
 		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x86.ActiveCfg = Release|Win32
 		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x86.Build.0 = Release|Win32
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Debug|x64.ActiveCfg = Debug|x64
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Debug|x64.Build.0 = Debug|x64
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Debug|x86.ActiveCfg = Debug|Win32
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Debug|x86.Build.0 = Debug|Win32
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Release|x64.ActiveCfg = Release|x64
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Release|x64.Build.0 = Release|x64
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Release|x86.ActiveCfg = Release|Win32
+		{F042A576-A297-4A8C-8B2F-820363F72B88}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

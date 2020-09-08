@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays.cpp">
+    <ClCompile Include="Passing Pointers as Arguments.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Characters.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dereferencing Pointers.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointing to a Pointer.cpp">
+    <ClCompile Include="New and Delete Pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
