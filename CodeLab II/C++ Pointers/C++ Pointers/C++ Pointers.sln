@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ Pointers", "C++ Pointers.vcxproj", "{2076E450-6988-4622-99BA-ED724D71B4E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer Basics", "..\Pointer Basics\Pointer Basics.vcxproj", "{D807D41A-817A-4DAC-9E0B-CC8277E86611}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How to use Pointers", "..\How to use Pointers\How to use Pointers.vcxproj", "{9CC4683C-D56A-4C96-88F1-3513E92165BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Debug|x64.ActiveCfg = Debug|x64
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Debug|x64.Build.0 = Debug|x64
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Debug|x86.Build.0 = Debug|Win32
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Release|x64.ActiveCfg = Release|x64
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Release|x64.Build.0 = Release|x64
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Release|x86.ActiveCfg = Release|Win32
+		{2076E450-6988-4622-99BA-ED724D71B4E2}.Release|x86.Build.0 = Release|Win32
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Debug|x64.ActiveCfg = Debug|x64
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Debug|x64.Build.0 = Debug|x64
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Debug|x86.ActiveCfg = Debug|Win32
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Debug|x86.Build.0 = Debug|Win32
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Release|x64.ActiveCfg = Release|x64
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Release|x64.Build.0 = Release|x64
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Release|x86.ActiveCfg = Release|Win32
+		{D807D41A-817A-4DAC-9E0B-CC8277E86611}.Release|x86.Build.0 = Release|Win32
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Debug|x64.ActiveCfg = Debug|x64
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Debug|x64.Build.0 = Debug|x64
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Debug|x86.Build.0 = Debug|Win32
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x64.ActiveCfg = Release|x64
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x64.Build.0 = Release|x64
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x86.ActiveCfg = Release|Win32
+		{9CC4683C-D56A-4C96-88F1-3513E92165BD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F92C6065-8092-458A-B73D-96DF87BCA3A2}
+	EndGlobalSection
+EndGlobal
