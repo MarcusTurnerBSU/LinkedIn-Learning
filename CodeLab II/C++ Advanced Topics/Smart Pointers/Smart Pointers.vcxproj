@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{88082356-ab5e-4585-80da-a597e7725d92}</ProjectGuid>
-    <RootNamespace>ClassInheritance</RootNamespace>
+    <ProjectGuid>{14eee381-b3be-45c3-a409-7a5761cda50d}</ProjectGuid>
+    <RootNamespace>SmartPointers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="simple-inheritance.cpp" />
+    <ClCompile Include="custom-deleter.cpp" />
+    <ClCompile Include="shared.cpp" />
+    <ClCompile Include="strc.cpp" />
+    <ClCompile Include="unique.cpp" />
+    <ClCompile Include="weak.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="strc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

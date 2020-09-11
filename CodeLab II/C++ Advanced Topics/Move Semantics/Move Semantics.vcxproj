@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{88082356-ab5e-4585-80da-a597e7725d92}</ProjectGuid>
-    <RootNamespace>ClassInheritance</RootNamespace>
+    <ProjectGuid>{fc18532d-ab01-48c9-880c-e9f1a35898c7}</ProjectGuid>
+    <RootNamespace>MoveSemantics</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="simple-inheritance.cpp" />
+    <ClCompile Include="rational-01.cpp" />
+    <ClCompile Include="rational-02.cpp" />
+    <ClCompile Include="rational-03.cpp" />
+    <ClCompile Include="vector-test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

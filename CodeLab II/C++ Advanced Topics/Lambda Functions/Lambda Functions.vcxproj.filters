@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="simple-inheritance.cpp">
+    <ClCompile Include="lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda-02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poly-lambda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
