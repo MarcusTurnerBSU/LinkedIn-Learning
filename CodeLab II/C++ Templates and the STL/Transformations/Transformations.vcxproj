@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4c62add7-3a3d-4d64-b2b5-303ddb71aa70}</ProjectGuid>
-    <RootNamespace>Templates</RootNamespace>
+    <ProjectGuid>{c2db569c-42cc-48d9-a270-d6a1aa83b4f6}</ProjectGuid>
+    <RootNamespace>Transformations</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="auto.cpp" />
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="template-class.cpp" />
-    <ClCompile Include="template-variable.cpp" />
-    <ClCompile Include="temple-function.cpp" />
-    <ClCompile Include="temple-function02.cpp" />
+    <ClCompile Include="lambda.cpp" />
+    <ClCompile Include="rational.cpp" />
+    <ClCompile Include="string-transform.cpp" />
+    <ClCompile Include="transform.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stack.h" />
+    <ClInclude Include="rational.h" />
+    <ClInclude Include="title-case.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

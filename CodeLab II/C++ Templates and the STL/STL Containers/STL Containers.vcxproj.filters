@@ -15,31 +15,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="working.cpp">
+    <ClCompile Include="vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="working-02.cpp">
+    <ClCompile Include="list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="conditional.cpp">
+    <ClCompile Include="pair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="side-effects.cpp">
+    <ClCompile Include="tuple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="working-03.cpp">
+    <ClCompile Include="array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="conditional.h">
+    <ClCompile Include="deque.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="includeA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="includeB.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

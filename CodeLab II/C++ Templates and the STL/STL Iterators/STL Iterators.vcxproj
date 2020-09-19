@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4c62add7-3a3d-4d64-b2b5-303ddb71aa70}</ProjectGuid>
-    <RootNamespace>Templates</RootNamespace>
+    <ProjectGuid>{fe89b756-e512-4208-b613-a89a4634787b}</ProjectGuid>
+    <RootNamespace>STLIterators</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="auto.cpp" />
-    <ClCompile Include="stack.cpp" />
-    <ClCompile Include="template-class.cpp" />
-    <ClCompile Include="template-variable.cpp" />
-    <ClCompile Include="temple-function.cpp" />
-    <ClCompile Include="temple-function02.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stack.h" />
+    <ClCompile Include="bidirectional-iterator.cpp" />
+    <ClCompile Include="forward-iterator.cpp" />
+    <ClCompile Include="input-iterator.cpp" />
+    <ClCompile Include="iterator.cpp" />
+    <ClCompile Include="output-iterator.cpp" />
+    <ClCompile Include="random-iterator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

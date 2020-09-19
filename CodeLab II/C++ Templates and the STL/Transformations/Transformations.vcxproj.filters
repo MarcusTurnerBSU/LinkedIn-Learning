@@ -15,30 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="working.cpp">
+    <ClCompile Include="transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="working-02.cpp">
+    <ClCompile Include="rational.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="conditional.cpp">
+    <ClCompile Include="lambda.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="side-effects.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="working-03.cpp">
+    <ClCompile Include="string-transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="conditional.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="includeA.h">
+    <ClInclude Include="title-case.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="includeB.h">
+    <ClInclude Include="rational.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
