@@ -15,37 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="transform.cpp">
+    <ClCompile Include="functor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="rational.cpp">
+    <ClCompile Include="arithmetic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lambda.cpp">
+    <ClCompile Include="relational.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="string-transform.cpp">
+    <ClCompile Include="logical.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="binary-transformation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="numword-transform.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="numword.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="title-case.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rational.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="numword.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c2db569c-42cc-48d9-a270-d6a1aa83b4f6}</ProjectGuid>
-    <RootNamespace>Transformations</RootNamespace>
+    <ProjectGuid>{d8cf566f-cf5e-4943-bad8-d18dc42db711}</ProjectGuid>
+    <RootNamespace>STLAlgorithm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,18 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binary-transformation.cpp" />
-    <ClCompile Include="lambda.cpp" />
-    <ClCompile Include="numword-transform.cpp" />
-    <ClCompile Include="numword.cpp" />
-    <ClCompile Include="rational.cpp" />
-    <ClCompile Include="string-transform.cpp" />
-    <ClCompile Include="transform.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="numword.h" />
-    <ClInclude Include="rational.h" />
-    <ClInclude Include="title-case.h" />
+    <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="conditional.cpp" />
+    <ClCompile Include="modify.cpp" />
+    <ClCompile Include="replace.cpp" />
+    <ClCompile Include="search.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

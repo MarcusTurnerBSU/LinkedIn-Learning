@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c2db569c-42cc-48d9-a270-d6a1aa83b4f6}</ProjectGuid>
-    <RootNamespace>Transformations</RootNamespace>
+    <ProjectGuid>{05621a74-a078-4e4b-9805-26d715dd898c}</ProjectGuid>
+    <RootNamespace>STLFunctions</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,18 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binary-transformation.cpp" />
-    <ClCompile Include="lambda.cpp" />
-    <ClCompile Include="numword-transform.cpp" />
-    <ClCompile Include="numword.cpp" />
-    <ClCompile Include="rational.cpp" />
-    <ClCompile Include="string-transform.cpp" />
-    <ClCompile Include="transform.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="numword.h" />
-    <ClInclude Include="rational.h" />
-    <ClInclude Include="title-case.h" />
+    <ClCompile Include="arithmetic.cpp" />
+    <ClCompile Include="functor.cpp" />
+    <ClCompile Include="logical.cpp" />
+    <ClCompile Include="relational.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
