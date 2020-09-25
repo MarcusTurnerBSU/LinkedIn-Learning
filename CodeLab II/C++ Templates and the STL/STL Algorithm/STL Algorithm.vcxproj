@@ -140,10 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="binsearch.cpp" />
     <ClCompile Include="conditional.cpp" />
+    <ClCompile Include="merge.cpp" />
     <ClCompile Include="modify.cpp" />
+    <ClCompile Include="partition.cpp" />
+    <ClCompile Include="randomise.cpp" />
     <ClCompile Include="replace.cpp" />
     <ClCompile Include="search.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="stablesort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

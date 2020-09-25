@@ -19,6 +19,26 @@ int main() {
 
     copy(v1.begin(), v1.end(), v2.begin());
     /*
+    random_shuffle(v1.begin(), v1.end(), [](int i)->int { return rand() % i; });
+    disp_v(v1;
+    */
+    /*
+    random_shuffle(v1.begin(), v1.end());
+    disp_v(v1;
+    */
+    /*
+    generate(v2.begin(), v2.end(), []()->int {return rand() % 100; });
+    disp_v(v2;
+    */
+    /*
+    fill_n(v1.begin(), v1.end(), 15, 100);
+    disp_v(v1;
+    */
+    /*
+    fill(v1.begin(), v1.end(), v2.begin() - 10, 100);
+    disp_v(v1;
+    */
+    /*
     reverse(v1.begin(), v1.end());
     disp_v(v1);
     reverse, reverses elements in place so no need for target "v2.begin());"
